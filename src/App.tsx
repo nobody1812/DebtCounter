@@ -72,7 +72,7 @@ export function App() {
   );
 
   const statusText =
-    balance > 0 ? "Сейчас брат должен тебе" : balance < 0 ? "Сейчас ты должен брату" : "Сейчас вы в расчете";
+    balance > 0 ? "Сейчас брат должен" : balance < 0 ? "Сейчас я должна брату" : "Сейчас вы в расчете";
   const typeCopy = getTransactionCopy(type);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
